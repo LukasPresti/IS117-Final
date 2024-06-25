@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | IHateItHereGains</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        footer {
+            padding: 20px 0;
+            background-color: #343a40;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 60px; /* Slightly smaller footer */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        footer p, footer a {
+            margin: 0;
+            color: #ccc;
+        }
+        footer a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .navbar {
+            background-color: #1b1b1b;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+
+        .navbar-nav .nav-item.active .nav-link {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">IHateItHereGains</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Everything You Need
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="supplements.html">Supplements</a>
+                        <a class="dropdown-item" href="workouts.html">Workout Plans</a>
+                        <a class="dropdown-item" href="meals.html">Meals</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="experience.html">Personal Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <div class="container mt-5">
+        <h1>Contact</h1>
+        <p>Reach out to us through the following methods:</p>
+        <ul>
+            <li>Phone: (123) 456-7890</li>
+            <li>Email: contact@ihateitheregains.com</li>
+            <li>Steam: steam_id</li>
+            <li>Discord: discord_id</li>
+        </ul>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <p>&copy; 2024 IHateItHereGains. All rights reserved.</p>
+            <a href="#" class="text-white">Privacy Policy</a> | <a href="#" class="text-white">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!-- DEVELOPER: Lukas Presti, IS117-011, Summer 2024 ->
